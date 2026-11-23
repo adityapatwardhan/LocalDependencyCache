@@ -1,0 +1,21 @@
+[
+  {
+    "name": "SyncCacheTimerFunction",
+    "scriptFile": "LocalDependencyCache.FunctionApp.dll",
+    "entryPoint": "LocalDependencyCache.FunctionApp.Functions.SyncCacheTimerFunction.RunAsync",
+    "language": "dotnet-isolated",
+    "properties": {
+      "IsCodeless": false
+    },
+    "bindings": [
+      {
+        "name": "timerInfo",
+        "direction": "In",
+        "type": "timerTrigger",
+        "schedule": "%TimerSchedule%",
+        "runOnStartup": false,
+        "properties": {}
+      }
+    ]
+  }
+]

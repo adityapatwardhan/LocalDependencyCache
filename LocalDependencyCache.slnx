@@ -1,0 +1,10 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/LocalDependencyCache.Core/LocalDependencyCache.Core.csproj" />
+    <Project Path="src/LocalDependencyCache.Query/LocalDependencyCache.Query.csproj" />
+    <Project Path="src/LocalDependencyCache.FunctionApp/LocalDependencyCache.FunctionApp.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/LocalDependencyCache.Tests/LocalDependencyCache.Tests.csproj" />
+  </Folder>
+</Solution>
